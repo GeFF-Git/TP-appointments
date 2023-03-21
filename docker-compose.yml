@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  appointmentservice_api:
+    image: ${DOCKER_REGISTRY-}appointmentserviceapi
+    build:
+      context: .
+      dockerfile: AppointmentService_API/Dockerfile

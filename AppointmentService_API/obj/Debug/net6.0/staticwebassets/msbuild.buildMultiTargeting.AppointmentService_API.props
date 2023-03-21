@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppointmentService_API.props" />
+</Project>
